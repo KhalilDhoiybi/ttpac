@@ -5,9 +5,9 @@
 
         <ol>
             <li><a href="index.html">Materiel</a></li>
-            <li>create</li>
+            <li>edit</li>
         </ol>
-        <h2>Create Page</h2>
+        <h2>Edit Page</h2>
 
     </div>
 </section><!-- End Breadcrumbs -->
@@ -71,5 +71,6 @@
                 </form>
             </div>
         </div>
+
 
         @endsection
