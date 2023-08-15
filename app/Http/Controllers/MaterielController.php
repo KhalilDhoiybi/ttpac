@@ -38,8 +38,7 @@ class MaterielController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'nom' => 'required',
-            'prenom' => 'required'
+            'nom_materiel' => 'required',
         ]);
 
         $materiel = new Materiel([
@@ -84,8 +83,7 @@ class MaterielController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'nom' => 'required',
-            'prenom' => 'required'
+            'nom_materiel' => 'required',
         ]);
         $materiel = Materiel::find($id);
         $materiel->nom_materiel = $request->get('nom_materiel');

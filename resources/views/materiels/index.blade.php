@@ -1,6 +1,17 @@
 @extends('layouts.app')
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+        <ol>
+            <li><a href="index.html">Materiel</a></li>
+
+        </ol>
+
+    </div>
+</section><!-- End Breadcrumbs -->
 @section('content')
-<div class="row">
+<div class="row justify-content-center">
     <div class="col-md-12">
         <h4>
             <font color="orange"><b>Gestion des materiels</b></font>
@@ -22,20 +33,15 @@
                             <font color="white"><b>Nom</b></font>
                         </th>
                         <th style="background-color:orange;">
-                            <font color="white"><b>Prenom</b></font>
+                            <font color="white"><b>Caracteristique</b></font>
                         </th>
                         <th style="background-color:orange;">
-                            <font color="white"><b>Datenais</b></font>
+                            <font color="white"><b>Type</b></font>
                         </th>
                         <th style="background-color:orange;">
-                            <font color="white"><b>Adresse</b></font>
+                            <font color="white"><b>Marque</b></font>
                         </th>
-                        <th style="background-color:orange;">
-                            <font color="white"><b>Email</b></font>
-                        </th>
-                        <th style="background-color:orange;">
-                            <font color="white"><b>Tel</b></font>
-                        </th>
+
                         <th style="background-color:orange;text-align:center;" colspan="4">
                             <font color="white"><b>Actions</b></font>
                         </th>
@@ -78,21 +84,5 @@
             </div>
             @endif
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        @endsec
-        tion
+    </div>
+    @endsection
