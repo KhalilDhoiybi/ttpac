@@ -7,7 +7,7 @@
             <li><a href="index.html">Materiel</a></li>
             <li>edit</li>
         </ol>
-        <h2>Edit Page</h2>
+
 
     </div>
 </section><!-- End Breadcrumbs -->
@@ -17,7 +17,7 @@
     <div class="col-12">
         <div style="width:800px;">
             <h4>
-                <font color="orange"><b>Modification d'un Materiel </b></font>
+                <font color="#3c4c69"><b>Modification d'un Materiel </b></font>
             </h4>
         </div>
         @if ($errors->any())
@@ -71,6 +71,8 @@
                 </form>
             </div>
         </div>
+
+
 
 
         @endsection

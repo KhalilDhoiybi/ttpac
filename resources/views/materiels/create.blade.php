@@ -7,7 +7,6 @@
             <li><a href="index.html">Materiel</a></li>
             <li>create</li>
         </ol>
-        <h2>Create Page</h2>
 
     </div>
 </section><!-- End Breadcrumbs -->
@@ -16,7 +15,7 @@
 <div class="row justify-content-center">
     <div class="col-md-12">
         <h4>
-            <font color="orange"><b>Ajouter un Materiel </b></font>
+            <font color="#3c4c69"><b>Ajouter un Materiel </b></font>
         </h4>
         <div>
             @if ($errors->any())

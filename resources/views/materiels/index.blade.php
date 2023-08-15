@@ -14,7 +14,7 @@
 <div class="row justify-content-center">
     <div class="col-md-12">
         <h4>
-            <font color="orange"><b>Gestion des materiels</b></font>
+            <font color="#3c4c69"><b>Gestion des materiels</b></font>
         </h4>
     </div>
     <div class="col-md-12">
@@ -26,23 +26,23 @@
             <table class="table table-hover table-condensed ">
                 <thead>
                     <tr>
-                        <th style="background-color:orange;">
+                        <th style="background-color:#3c4c69;">
                             <font color="white"><b>ID materiel</b></font>
                         </th>
-                        <th style="background-color:orange;">
+                        <th style="background-color:#3c4c69;">
                             <font color="white"><b>Nom</b></font>
                         </th>
-                        <th style="background-color:orange;">
+                        <th style="background-color:#3c4c69;">
                             <font color="white"><b>Caracteristique</b></font>
                         </th>
-                        <th style="background-color:orange;">
+                        <th style="background-color:#3c4c69;">
                             <font color="white"><b>Type</b></font>
                         </th>
-                        <th style="background-color:orange;">
+                        <th style="background-color:#3c4c69;">
                             <font color="white"><b>Marque</b></font>
                         </th>
 
-                        <th style="background-color:orange;text-align:center;" colspan="4">
+                        <th style="background-color:#3c4c69;text-align:center;" colspan="4">
                             <font color="white"><b>Actions</b></font>
                         </th>
 
