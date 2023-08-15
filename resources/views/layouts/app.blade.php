@@ -45,7 +45,7 @@
 
             <h1 class="logo me-auto">
                 <image src="/tunisie.png" />
-                <a href="index.html">Tunisie telecom</a>
+                <a href="/">Tunisie telecom</a>
             </h1>
 
 
@@ -55,7 +55,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     @auth
-                    <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+                    <li><a class="nav-link scrollto " href="/home">Home</a></li>
                     <li><a class="nav-link scrollto " href="/materiels">Materiel</a></li>
                     <li><a class="nav-link scrollto " href="#hero">page 2</a></li>
                     <li><a href="{{ route('logout') }}" class="getstarted scrollto" onclick=" event.preventDefault(); document.getElementById('logout-form').submit();"><span class="d-none d-md-inline">Logout</span></a></li>
@@ -97,6 +97,7 @@
     <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="/assets/vendor/php-email-form/validate.js"></script>
+
 
 
 
